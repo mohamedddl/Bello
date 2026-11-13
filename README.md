@@ -73,8 +73,7 @@ Then add the model sources you want, any one is enough:
 `bello doctor` shows what is ready, and `bello update` updates Bello. To run
 Bello from inside your coding agent, add the plugin, which includes the
 configuration advisor. For Codex:
-
-```bash
+`bash
 codex plugin marketplace add AlexeyKulaev/Bello-codex-marketplace --ref main
 codex plugin add bello@bello-marketplace
 ```
